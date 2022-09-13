@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(139, 224, 150);
+    height: 5vh;
+}
+
+main {
+    height: 100vh;
+    background-color: orange;
+    justify-content: left;
+}
+
+footer {
+    justify-content: left;
+    background-color: rgb(139, 224, 150);
+    align-items: flex-end;
+    height: 5vh;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+figure {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
